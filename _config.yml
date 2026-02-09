@@ -232,6 +232,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - jekyll-scholar
+  
 # Sitemap settings
 defaults:
   - scope:
