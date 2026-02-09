@@ -1,8 +1,10 @@
 ---
 layout: about
 title: Home
-permalink: /about /
-subtitle: Assistant Professor   
+permalink: /about/
+subtitle: Assistant Professor
+nav: true
+nav_order: 2   
 
 
 profile:
