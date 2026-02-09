@@ -1,0 +1,32 @@
+name: Deploy the site
+
+on:
+  push:
+    branches:
+      - main  # 确保这里写的是 main，如果你主分支叫 master 就改成 master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # 或者查看你本地 ruby -v 版本
+          bundler-cache: true
+
+      - name: Install and Build
+        run: |
+          npm install -g mermaid.cli
+          bundle install
+          bundle exec jekyll build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages  # 确保推送到 gh-pages
