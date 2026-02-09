@@ -1,0 +1,14 @@
+- name: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+  abbreviation: "TOSEM"
+  
+- name: "IEEE Transactions on Software Engineering (TSE)"
+  abbreviation: "TSE"
+  
+- name: "IEEE Transactions on Reliability (TR)"
+  abbreviation: "TR"
+  
+- name: "Software Testing, Verification and Reliability (STVR)"
+  abbreviation: "STVR"
+  
+- name: "Information and Software Technology (IST)"
+  abbreviation: "IST"

@@ -1,0 +1,27 @@
+# 研究生课程
+graduate_courses:
+  - title: "Theories and Applications of Artificial Intelligence in Healthcare Systems"
+    chinese_title: "医疗服务系统的人工智能理论与应用"
+    level: "graduate"
+    semester: "semester II"
+    year: "2024"
+    
+  - title: "Advanced Operations Research II: Stochastic Processes"
+    chinese_title: "高级运筹学II：随机过程"
+    level: "graduate"
+    semester: "semester I"
+    year: "2024"
+
+# 本科生课程
+undergraduate_courses:
+  - title: "Production Planning and Control"
+    chinese_title: "生产计划与控制"
+    level: "undergraduate"
+    semester: "semester II"
+    year: "2025"
+    
+  - title: "Service Operations Management"
+    chinese_title: "服务运作管理"
+    level: "undergraduate"
+    semester: "semester I"
+    year: "2025"

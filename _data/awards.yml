@@ -1,0 +1,14 @@
+# _data/awards.yml - 结构化数据文件，列出奖项和荣誉
+- award: "Stanford World's Top 2% Scientists"
+  year: "2025"
+  details: ""
+  
+- award: "World Artificial Intelligence Conference (WAIC) Rising Star Award"
+  year: "2022"
+  details: ""
+  
+- award: "Rising Stars in EECS"
+  year: "2021"
+  details: ""
+  
+

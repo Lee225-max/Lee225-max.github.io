@@ -1,0 +1,259 @@
+# 期刊论文
+journals:
+  - id: 1
+    authors: "F. G. Liu, Xin LI, C. Lu, W. Y. Gong"
+    year: 2025
+    title: "Adaptive knowledge-based multi-objective evolutionary algorithm for hybrid flow shop scheduling problems with multiple parallel batch processing stages"
+    journal: "Swarm and Evolutionary Computation"
+    volume_pages: "95, Article 101929"
+    doi: "10.1016/j.swevo.2025.101929"
+    sdgs: "9 - Industry, Innovation and Infrastructure"
+   
+    
+  - id: 2
+    authors: "Xin LI, W. Yang"
+    year: 2025
+    title: "Cyclic scheduling of multi-type wafers concurrent processing in single-arm cluster tools with residency time constraints"
+    journal: "Expert Systems with Applications"
+    volume_pages: "269, Article 126443"
+    doi: "10.1016/j.eswa.2025.126443"
+    sdgs: "3 - Good Health and Well-Being, 9 - Industry, Innovation and Infrastructure, 12 - Responsible Consumption and Production"
+    
+    
+  - id: 3
+    authors: "Xin LI"
+    year: 2025
+    title: "Generalized optimal scheduling of cluster tools with reentrance and residency time constraints"
+    journal: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    volume_pages: "55(1), 307-318"
+    doi: "10.1109/TSMC.2024.3466991"
+    award: false
+    
+  - id: 4
+    authors: "Xin LI, C. Lu"
+    year: 2024
+    title: "Scheduling dual-arm multi-cluster tools with residency time constraints beyond swap-based strategies and module-bound regions"
+    journal: "IEEE Robotics and Automation Letters"
+    volume_pages: "9(11), 10177-10184"
+    doi: "10.1109/LRA.2024.3469823"
+    award: false
+    
+  - id: 5
+    authors: "Xin LI, X Qian"
+    year: 2024
+    title: "Scheduling single-arm multi-cluster tools connected by one-space buffer modules beyond the schedulability assumption"
+    journal: "Flexible Services and Manufacturing Journal"
+    doi: "10.1007/s10696-024-09565-7"
+  
+    
+  - id: 6
+    authors: "Zikang Wang, Chun Huang, Boqiang Yao, Xin LI"
+    year: 2024
+    title: "Integrated reinforcement and imitation learning for tower crane lift path planning"
+    journal: "Automation in Construction"
+    volume_pages: "165, 1-18, Article 105568"
+    doi: "10.1016/j.autcon.2024.105568"
+    
+    
+  - id: 7
+    authors: "Xin LI and H. Chen"
+    year: 2024
+    title: "Bi-objective scheduling of physical therapy treatments with coupled operations for inpatients in rehabilitation departments"
+    journal: "Swarm and Evolutionary Computation"
+    volume_pages: "86, 1-13, Article 101523"
+    doi: "10.1016/j.swevo.2024.101523"
+    
+    
+  - id: 8
+    authors: "X. Qian, M. Yin, Xin LI, Q. Zhang"
+    year: 2023
+    title: "Two-stage stochastic nonlinear winner determination for logistics service procurement auctions under quantity discounts"
+    journal: "Journal of Industrial and Management Optimization"
+    volume_pages: "19(10), 7072-7089"
+    doi: "10.3934/jimo.2022252"
+   
+    
+  - id: 9
+    authors: "李鑫、陳海濱和王進"
+    year: 2022
+    title: "基於複合遺傳算法的住院患者物理康復治療調度"
+    journal: "工業工程與管理"
+    volume_pages: "27(2), 86-94"
+    doi: "10.19495/j.cnki.1007-5429.2022.06.011"
+    
+    
+  - id: 10
+    authors: "X. Qian, S. Fang, M. Yin, M. Huang, Xin LI"
+    year: 2021
+    title: "Selecting green third party logistics providers for a loss-averse fourth party logistics provider in a multiattribute reverse auction"
+    journal: "Information Sciences"
+    volume_pages: "548, 357-377"
+    doi: "10.1016/j.ins.2020.09.011"
+   
+    
+  - id: 11
+    authors: "Xin LI, Y. Pan, S. Jiang, Q. Huang, Z. Chen, M. Zhang, Z. Zhang"
+    year: 2021
+    title: "Locate vaccination stations considering travel distance, operational cost, and work schedule"
+    journal: "Omega"
+    volume_pages: "101, Article 102236"
+    doi: "10.1016/j.omega.2020.102236"
+   
+    
+  - id: 12
+    authors: "J. Wang, Xin LI, J. Chu, K. L. Tsui"
+    year: 2020
+    title: "A two-stage approach for resource allocation and surgery scheduling with assistant surgeons"
+    journal: "IEEE Access"
+    volume_pages: "8, 49487-49496"
+    doi: "10.1109/ACCESS.2020.2979519"
+   
+    
+  - id: 13
+    authors: "Xin LI, Z. X. Wang, F. T. S. Chan, S. H. Chung"
+    year: 2019
+    title: "A genetic algorithm for optimizing space utilization in aircraft hangar shop"
+    journal: "International Transactions in Operational Research"
+    volume_pages: "26(5), 1655-1675"
+    doi: "10.1111/itor.12642"
+   
+    
+  - id: 14
+    authors: "Xin LI, J. Wang"
+    year: 2018
+    title: "Approximate dynamic programming approaches for appointment scheduling with patient preferences"
+    journal: "Artificial Intelligence in Medicine"
+    volume_pages: "85, 16-25"
+    doi: "10.1016/j.artmed.2018.02.001"
+    
+    
+  - id: 15
+    authors: "Xin LI, Richard Y. K. Fung"
+    year: 2018
+    title: "A dynamic scheduling algorithm for singe-arm two-cluster tools with flexible processing times"
+    journal: "Engineering Optimization"
+    volume_pages: "50(2), 329-346"
+    doi: "10.1080/0305215X.2017.1310209"
+    
+    
+  - id: 16
+    authors: "Xin LI, Richard Y. K. Fung"
+    year: 2017
+    title: "Optimal multi-degree cyclic solution of multi-hoist scheduling without overlapping"
+    journal: "IEEE Transactions on Automation Science and Engineering"
+    volume_pages: "14(2), 1064-1074"
+    doi: "10.1109/TASE.2015.2478482"
+   
+    
+  - id: 17
+    authors: "Xin LI, Richard Y. K. Fung"
+    year: 2016
+    title: "Optimal K-unit cycle scheduling of two-cluster tools with residency constraints and general robot moving times"
+    journal: "Journal of Scheduling"
+    volume_pages: "19, 165-176"
+    doi: "10.1007/s10951-015-0448-7"
+  
+    
+  - id: 18
+    authors: "B. H. Zhou, Xin LI, R. Y. K. Fung"
+    year: 2015
+    title: "Dynamic scheduling of photolithography process based on Kohonen neural network"
+    journal: "Journal of Intelligent Manufacturing"
+    volume_pages: "26, 73-85"
+    doi: "10.1007/s10845-013-0763-9"
+    
+    
+  - id: 19
+    authors: "Xin LI, F. T. S. Chan, S. H. Chung"
+    year: 2015
+    title: "Optimal multi-degree cyclic scheduling of multiple robots without overlapping in robotic flowshops with parallel machines"
+    journal: "Journal of Manufacturing Systems"
+    volume_pages: "36, 62-75"
+    doi: "10.1016/j.jmsy.2015.03.003"
+    
+    
+  - id: 20
+    authors: "Xin LI, Richard Y. K. Fung"
+    year: 2014
+    title: "A mixed integer linear programming solution for single hoist multi-degree cyclic scheduling with reentrance"
+    journal: "Engineering Optimization"
+    volume_pages: "46(5), 704-723"
+    doi: "10.1080/0305215X.2013.795560"
+   
+    
+  - id: 21
+    authors: "B.H. Zhou, Xin LI"
+    year: 2013
+    title: "Heuristic tabu search scheduling algorithm for wet-etching systems in semiconductor wafer fabrications"
+    journal: "High Technology Letters"
+    volume_pages: "19(2), 111-116"
+    doi: "10.3772/j.issn.1006-6748.2013.02.001"
+   
+    
+  - id: 22
+    authors: "B.H. Zhou, Xin LI"
+    year: 2012
+    title: "Try and error-based scheduling algorithm for cluster tools of wafer fabrications with residency time constraints"
+    journal: "Journal of Central South University"
+    volume_pages: "19, 187-192"
+    doi: "10.1007/s11771-012-0990-9"
+    
+
+# 会议论文
+conferences:
+  - id: 23
+    authors: "Xin LI, Richard Y. K. Fung"
+    year: 2013
+    title: "A mixed integer linear programming approach for multi-degree cyclic multi-hoist scheduling problems without overlapping"
+    conference: "Proceedings of 2013 IEEE International Conference on Automation Science and Engineering (CASE)"
+    pages: "274-279"
+    doi: "10.1109/CoASE.2013.6653893"
+  
+    
+  - id: 24
+    authors: "Xin LI, H. Chen"
+    year: 2021
+    title: "Physical therapy scheduling of inpatients based on improved Genetic Algorithm"
+    conference: "Journal of Physics: Conference Series, Hai Kou, China"
+    doi: "10.1088/1742-6596/1848/1/012009"
+   
+    
+  - id: 25
+    authors: "Xin LI, Y. Pan, R. Y. K. Fung"
+    year: 2019
+    title: "Optimal scheduling of the reentrant multi-degree cyclic multi-hoist scheduling problem"
+    conference: "Proceedings of 2019 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), Macau"
+    doi: "10.1109/IEEM44572.2019.8978674"
+  
+    
+  - id: 26
+    authors: "W. Yang, Y. Zhou, M. Zhou, Xin LI, Y. Pan"
+    year: 2019
+    title: "Sustainable supply chain network design considering the interactive influence of the multiproduct on the production capacity"
+    conference: "Proceedings of 2019 16th International Conference on Service Systems and Service Management, ICSSSM 2019"
+    doi: "10.1109/ICSSSM.2019.8887734"
+    
+    
+  - id: 27
+    authors: "Xin LI, J. Wang, Y. C. Pan"
+    year: 2019
+    title: "A MILP model of scheduling physical therapies with coupled operations in a basic setting rehabilitation center"
+    conference: "Proceedings of 2019 16th International Conference on Service Systems and Service Management (ICSSSM)"
+    doi: "10.1109/ICSSSM.2019.8887696"
+    
+    
+  - id: 28
+    authors: "Xin LI, S. Liu, Y. Pan, H. Guo"
+    year: 2018
+    title: "Surgery scheduling study of deputy surgeons and assistants based on MIP"
+    conference: "Proceedings of 2018 15th International Conference on Service Systems and Service Management (ICSSSM)"
+    doi: "10.1109/ICSSSM.2018.8465123"
+    
+    
+  - id: 29
+    authors: "Xin LI, Richard Y. K. Fung, H. Y. Sun"
+    year: 2011
+    title: "An events-driven scheduling algorithm for two-cluster tools with processing time windows"
+    conference: "Proceedings of 2011 IEEE International Conference on Industrial Engineering and Engineering Management, Singapore"
+    doi: "10.1109/IEEM.2011.6118154"
+   

@@ -1,0 +1,11 @@
+tabs:
+  - title: "关于"
+    url: /about/
+  - title: "出版物"
+    url: /publications/
+  - title: "项目"
+    url: /projects/
+  - title: "教学"
+    url: /teaching/
+  - title: "奖项与服务"   
+    url: /awards_services/       

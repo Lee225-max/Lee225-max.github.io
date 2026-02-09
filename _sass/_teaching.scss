@@ -1,0 +1,61 @@
+/* 教学页面样式 */
+.teaching-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.course-category {
+  margin: 2rem 0;
+  
+  h2 {
+    color: #000000;
+    border-bottom: 4px solid #01530f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.course-card {
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-left: 4px solid #db7f34;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .course-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .course-chinese-title {
+    color: #5d6d7e;
+    font-style: normal;
+    font-size: 0.95rem;
+  }
+  
+  .course-meta {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    
+    .semester, .year {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.course-divider {
+  height: 1px;
+  background-color: #dbf6fd;
+  border: none;
+  margin: 2.5rem 0;
+}
