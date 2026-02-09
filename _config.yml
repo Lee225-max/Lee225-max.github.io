@@ -17,7 +17,7 @@ lang: en
 icon: ⚛️
 
 
-url: "https://lee225-max.github.io"
+url: "https://Lee225-max.github.io"
 baseurl: "/al-folio"
 last_updated: false
 impressum_path:
@@ -184,7 +184,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "assets"]
 exclude:
   - bin/
   - CONTRIBUTING.md
