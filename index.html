@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    Li Xin Stephen 李鑫 
+  
+</title>
+<meta name="author" content="Li Xin Stephen 李鑫 ">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!-- Security: Content Security Policy -->
+<!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
+<!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;">
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/al-folio/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/al-folio/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/al-folio/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/al-folio/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://lee225-max.github.io/al-folio/">
+
+
+  <!-- Dark Mode -->
+  <script src="/al-folio/assets/js/theme.js?v=48c9b5bd7f2e0605e39e579400e22553"></script>
+  <link defer rel="stylesheet" href="/al-folio/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/al-folio/">Home
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/al-folio/publications/">Publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/al-folio/projects/">Research Projects
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/al-folio/awards_services/">Awards &amp; Services
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/al-folio/teaching/">Teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      
+        <span class="font-weight-bold">Li Xin Stephen 李鑫</span> 
+        
+      
+    </h1>
+    <p class="desc">Assistant Professor</p>
+  </header>
+
+  <article>
+    
+      <div class="profile float-left">
+        
+          
+          
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px)
+      30vw, 95vw">
+      
+    
+    <img src="/al-folio/assets/img/prof_pic.png?v=48f71bee7ce9c3dde3295c83e4bd5f62" class="img-fluid z-depth-1
+      rounded" width="100%" height="auto" alt="prof_pic.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </source></picture>
+
+  
+</figure>
+
+        
+        
+      </div>
+    
+
+    <div class="clearfix">
+<p>The Education University of Hong Kong<br>
+Department of Mathematics and Information Technology<br></p>
+
+<p><strong>Research Interests: </strong> <br>
+Data Science and Business Analytics <br>
+Mathematics Modeling and Optimization <br>
+Computing and Intelligent Algorithms <br>
+Machine Learning for Combinatorial Optimization <br></p>
+
+<p><strong>Email: stephenli@eduhk.hk </strong><br>
+<a href="https://pappl.eduhk.hk/rich/web/person.xhtml?pid=294025" rel="external nofollow noopener" target="_blank">More details on RICH</a>
+<br>
+<br></p>
+
+<p>I am an Assistant Professor at the <a href="https://www.eduhk.hk/mit/zhs/" rel="external nofollow noopener" target="_blank">Department of Mathematics and Information Technology</a>, <a href="https://www.eduhk.hk/en/" rel="external nofollow noopener" target="_blank">The Education University of Hong Kong (EdUHK)</a>.Before joining EdUHK, I served as an Associate Professor (tenured) at the College of Management, Shenzhen University. I obtained my Ph.D. degree from City University of Hong Kong (CityUHK), following a master’s degree from Shanghai Jiao Tong University (SJTU) and a bachelor’s degree from Huazhong University of Science and Technology (HUST).</p>
+
+<p>My research interests focus on <code class="language-plaintext highlighter-rouge">data science</code>, <code class="language-plaintext highlighter-rouge">business analytics</code>, and <code class="language-plaintext highlighter-rouge">intelligent optimization algorithms</code>, with particular emphasis on <code class="language-plaintext highlighter-rouge">mathematical modeling for complex systems </code>and <code class="language-plaintext highlighter-rouge">machine learning applications in combinatorial optimization</code>. I have developed innovative scheduling algorithms for healthcare systems, manufacturing processes, and logistics operations. My work has been published in top-tier journals including <a href="">Omega</a>, <a href="https://www.sciencedirect.com/journal/information-sciences" rel="external nofollow noopener" target="_blank">Information Sciences</a>, <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" rel="external nofollow noopener" target="_blank">IEEE Transactions on Automation Science and Engineering</a>, and <a href="https://www.sciencedirect.com" rel="external nofollow noopener" target="_blank">Artificial Intelligence in Medicine</a>.</p>
+
+<p>I am actively seeking motivated Ph.D. students, research assistants, and visiting scholars to join my research group. Prospective students with backgrounds in <code class="language-plaintext highlighter-rouge">mathematics</code>,<code class="language-plaintext highlighter-rouge"> computer science</code>, or <code class="language-plaintext highlighter-rouge">education technology </code>are especially encouraged to apply. Interested candidates may contact me via email with <code class="language-plaintext highlighter-rouge">CV </code>and <code class="language-plaintext highlighter-rouge">research interests</code>. Due to the volume of inquiries, I may not be able to respond to all messages individually, but I carefully review each application.</p>
+
+</div>
+    <br>
+
+    <!-- Selected papers -->
+    
+      <h2>
+        <a href="/al-folio/publications/" style="color: inherit"><strong>Highlighted Publications</strong></a>
+      </h2>
+      <hr style="border: none; height: 3px; background-color: #035504; margin: 1rem 0;">
+      <div class="publications">
+  <ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+    
+    <img src="/al-folio/assets/img/publication_preview/brownian-motion.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="brownian-motion.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="liu2025adaptive" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Adaptive knowledge-based multi-objective evolutionary algorithm for hybrid flow shop scheduling problems with multiple parallel batch processing stages</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      F. G.
+            Liu, Xin
+            Li, C.
+            Lu, and
+        <span class="more-authors" title="click to view 1 more author" onclick="
+              var element = $(this);
+              element.attr('title', '');
+              var more_authors_text = element.text() == '1 more author' ? 'W. Y. Gong' : '1 more author';
+              var cursorPosition = 0;
+              var textAdder = setInterval(function(){
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
+                if (++cursorPosition == more_authors_text.length){
+                  clearInterval(textAdder);
+                }
+            }, '10');
+          ">1 more author</span>
+      
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Swarm and Evolutionary Computation</em>,  2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1016/j.swevo.2025.101929" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">liu2025adaptive</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Adaptive knowledge-based multi-objective evolutionary algorithm for hybrid flow shop scheduling problems with multiple parallel batch processing stages}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, F. G. and Li, Xin and Lu, C. and Gong, W. Y.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Swarm and Evolutionary Computation}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{95}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{101929}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.swevo.2025.101929}</span><span class="p">,</span>
+  <span class="na">sdgs</span> <span class="p">=</span> <span class="s">{9}</span><span class="p">,</span>
+  <span class="na">thumbnail</span> <span class="p">=</span> <span class="s">{brownian-motion.gif}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+        
+          
+          
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+    
+    <img src="/al-folio/assets/img/publication_preview/wave-mechanics.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="wave-mechanics.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="li2025cyclic" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Cyclic scheduling of multi-type wafers concurrent processing in single-arm cluster tools with residency time constraints</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Xin
+            Li  and W.
+            Yang
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>Expert Systems with Applications</em>,  2025
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1016/j.eswa.2025.126443" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">li2025cyclic</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Cyclic scheduling of multi-type wafers concurrent processing in single-arm cluster tools with residency time constraints}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Xin and Yang, W.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Expert Systems with Applications}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{269}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{126443}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1016/j.eswa.2025.126443}</span><span class="p">,</span>
+  <span class="na">sdgs</span> <span class="p">=</span> <span class="s">{3, 9, 12}</span><span class="p">,</span>
+  <span class="na">thumbnail</span> <span class="p">=</span> <span class="s">{wave-mechanics-thumb.gif}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="li2024scheduling" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Scheduling dual-arm multi-cluster tools with residency time constraints beyond swap-based strategies and module-bound regions</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      
+      Xin
+            Li  and C.
+            Lu
+      
+    </div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="periodical">
+      <em>IEEE Robotics and Automation Letters</em>,  2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      
+      
+      
+        <a href="https://doi.org/10.1109/LRA.2024.3469823" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
+      
+      
+      
+      
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+      
+    
+
+    
+
+    
+
+    
+      <!-- Hidden bibtex block -->
+      <div class="bibtex hidden">
+        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">li2024scheduling</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Scheduling dual-arm multi-cluster tools with residency time constraints beyond swap-based strategies and module-bound regions}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Li, Xin and Lu, C.}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Robotics and Automation Letters}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{9}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{10177-10184}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/LRA.2024.3469823}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+      </div>
+    
+
+    
+  </div>
+</div>
+</li>
+</ol>
+</div>
+
+      <hr>
+    
+
+    <!-- Social -->
+    
+      <div class="social">
+        <div class="contact-icons"></div>
+
+        <div class="contact-note">You can even add a little note about which of these is the best way to reach you.
+</div>
+      </div>
+    
+
+    
+  </article>
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2026
+  Li Xin Stephen 李鑫
+  
+  . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+  
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/al-folio/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/al-folio/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/al-folio/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/al-folio/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/al-folio/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/al-folio/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/al-folio/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/al-folio/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/al-folio/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/al-folio/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/al-folio/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/al-folio/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/al-folio/assets/js/search-data.js"></script>
+  <script src="/al-folio/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script>
+
+
+
+
+  </body>
+</html>
